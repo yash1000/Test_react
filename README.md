@@ -36,11 +36,17 @@ Welcome to the Weather Dashboard App!
 
 To get started with the Weather Dashboard App, follow these simple steps:
 
-1. **Clone the Repository**: Use `git clone` to get a copy of the project on your local machine.
+1. **Create an Account and Obtain API Key**:
+   - Visit the WeatherAPI website: [https://www.weatherapi.com/](https://www.weatherapi.com/)
+   - Fill in the required information to create your account.
+   - Look for the option to generate an API key or access your API key.
+   - Copy the existing API key provided to you.
 
-2. **Install Dependencies**: Run `npm install` to install all necessary dependencies.
+2. **Clone the Repository**: Use `git clone https://github.com/yash1000/Test_react.git` to get a copy of the project on your local machine.
 
-3. **Configure Environment Variables**:
+3. **Install Dependencies**: Run `npm install` to install all necessary dependencies.
+
+4. **Configure Environment Variables**:
    - Rename the `.env.example` file to `.env`.
    - Open the `.env` file and add your WeatherAPI key:
      ```
@@ -48,6 +54,6 @@ To get started with the Weather Dashboard App, follow these simple steps:
      ```
      Replace `YOUR_WEATHERAPI_KEY` with your actual WeatherAPI key.
 
-4. **Start the App**: Run `npm start` to start the development server.
+5. **Start the App**: Run `npm start` to start the development server.
 
-5. **Explore and Enjoy**: Open your browser and visit [http://localhost:3000](http://localhost:3000) to explore the Weather Dashboard App.
+6. **Explore and Enjoy**: Open your browser and visit [http://localhost:3000](http://localhost:3000) to explore the Weather Dashboard App.
